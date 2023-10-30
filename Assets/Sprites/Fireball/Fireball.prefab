@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 5782692354034979477}
   - component: {fileID: 2198863485784665656}
   - component: {fileID: 3647453326673403521}
+  - component: {fileID: -6535701322365423084}
   - component: {fileID: 1357300332385894415}
-  - component: {fileID: 5243091827025895616}
   - component: {fileID: 3821159764491552330}
   - component: {fileID: 1540161732648095408}
   m_Layer: 0
   m_Name: Fireball
-  m_TagString: Untagged
+  m_TagString: FireBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,28 +105,7 @@ CircleCollider2D:
   m_Offset: {x: 0.04, y: 0}
   serializedVersion: 2
   m_Radius: 0.12
---- !u!50 &1357300332385894415
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794986101892458736}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!58 &5243091827025895616
+--- !u!58 &-6535701322365423084
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +120,28 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.04, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.12
+--- !u!50 &1357300332385894415
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794986101892458736}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &3821159764491552330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,5 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 37a0970d64fc3b247b7f7e540b411b5d, type: 2}
