@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-=======
-  - FireBall
-  - Enemy
->>>>>>> 1c9029215cc72e54d9d272bd7eed1a078d133923
-  - Bullet
+  tags: []
   layers:
   - Default
   - TransparentFX
