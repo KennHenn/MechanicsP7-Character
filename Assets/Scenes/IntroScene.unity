@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 175, y: 150}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: 200, y: 150}
+  m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216611173
 MonoBehaviour:
@@ -181,8 +181,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This Project is part of the Game Mechanics & Systems Design course. We
-    followed the Exercise 7 Game Design Patterns that we created. '
+  m_text: This Project is part of the Game Mechanics & Systems Design course. We
+    followed the Exercise 7 Game Design Patterns to create a Compound Mechanic.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -464,8 +464,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: 150}
-  m_SizeDelta: {x: 325, y: 50}
+  m_AnchoredPosition: {x: -200, y: 150}
+  m_SizeDelta: {x: 440, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022093661
 MonoBehaviour:
@@ -487,9 +487,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wizard Gaming is a 2D platformer where you play as a Wizard that shoots
-    fireballs to kill enemy slimes. Your goal is to escape the castle! Click to shoot.
-    A + D + Space to move.
+  m_text: "Wizard Gaming is a 2D platformer where you play as a Wizard that shoots
+    fireballs to kill enemy slimes. Your goal is to escape the castle! \nClick to
+    Shoot. L-Shift to Teleport.\nA + D to move, Space to jump."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
