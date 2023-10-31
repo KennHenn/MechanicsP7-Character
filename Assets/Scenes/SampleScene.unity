@@ -218,6 +218,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: ec8f65e43370de942887685fdb637d69, type: 2}
+    - target: {fileID: -227106132182411646, guid: 785d9878d78001647b47700ae7ec298e, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1552461000988629968, guid: 785d9878d78001647b47700ae7ec298e, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PatrolArea","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
